@@ -1,0 +1,160 @@
+:root{
+  --azul-principal:#0e1d8e;
+  --cinza:#333333;
+
+}
+
+.cartao_principal{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin: 5vw;
+  background:linear-gradient(113deg, var(--azul-principal) 50%, white 50%);
+  height: auto;
+  border:0.5px solid rgb(221, 217, 217);
+}
+
+.cartao_insercao{
+  display:flex;
+  flex-direction:column;
+  color:white;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.cartao_instrucao{
+  font-size: 32px;
+  margin-top:4vh;
+  margin-bottom: 1vh;
+}
+
+.container_input{
+  display: flex;
+  height: 3vh;
+  min-height: 35px;
+  width: 80vw;
+
+}
+
+.cartao_input{
+  width: 80%;
+  margin-right: 2vh;
+  width: 50vw;
+  border: 0.5px solid var(--azul-principal);
+  border-radius: 5px;
+}
+
+.cartao_botao{
+  background-color: var(--azul-principal);
+  border-color: transparent;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  height: 3vh;
+  min-height: 35px;
+  width: 10vw;
+}
+
+.cartao_lista{
+  background: var(--cinza);
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: fit-content;
+  margin: auto;
+  margin:4vh 0;
+  margin-left: 6vw;
+  min-height: 25vh;
+  min-width: 55%;
+  max-height: 444px;
+  overflow: scroll;
+  padding-bottom: 30px;
+  padding-top: 10vh;
+  width: 64%;
+}
+
+.lista_titulo{
+  font-size: 20px;
+  margin: -4.7vh 4vw;
+  margin-bottom: 2.5vh;
+}
+
+.lista_item{
+  display: flex;
+  flex-wrap: wrap;
+  margin:1vh 4vw;
+  margin-right: 0;
+  margin-top: 0;
+  align-items: center;
+}
+
+.item_checkbox{
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+}
+
+.checked ~ .item{
+  color:rgb(175, 175, 175);
+  text-decoration: line-through;
+}
+
+.item{
+  font-size: 20px;
+  margin-left: 10px;
+  width: 11vw;
+}
+
+.item_botao{
+  background: transparent;
+  border: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 4vw;
+  transition: 0.9s;
+}
+
+.item_botao:hover{
+  color: #ff0000;
+  text-shadow: 0px 0px 30px #ff0000;
+  transition: 0.9s;
+}
+
+.lista_total{
+  display: flex;
+  flex-direction: column;
+  margin: 8vh auto;
+}
+
+.total_titulo{
+  font-size: 24px;
+  margin: auto;
+}
+
+.total_valor{
+  font-size: 32px;
+  margin: 1vh auto;
+}
+
+.cartao_logo{
+  margin: auto;
+  margin-top: 18vh;
+  width: 60%;
+}
+
+@media screen and (max-width:1328px ){
+  .cartao_lista{
+    margin-left: auto;
+  }
+
+  .lista_total{
+    width: 18vw;
+  }
+}
+  
