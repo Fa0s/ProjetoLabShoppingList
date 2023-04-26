@@ -8,11 +8,11 @@
 <br></br>
 
 # 📰 Índice
-- 📃 [Sobre](#📃-sobre)
-- 🚀 [Demonstração](#🚀-demonstração)
-- ✅ [Requisitos da Aplicação](#✅-requisitos-da-aplicação)
-- ✨ [Exemplo de Aplicação](#✨exemplo-de-aplicação)
-- 💭 [Plano de Projetos](#💭-plano-do-projeto)
+- 📃 [Sobre](#-sobre)
+- 🚀 [Demonstração](#-demonstração)
+- ✅ [Requisitos da Aplicação](#-requisitos-da-aplicação)
+- ✨ [Exemplo de Aplicação](#-exemplo-de-aplicação)
+- 💭 [Plano de Projetos](#-plano-do-projeto)
 
 <br></br>
  
@@ -62,7 +62,7 @@ Um título na aba do navegador, para que o usuário encontre a sua aplicação n
 
 <br></br>
 
-# ✨Exemplo de Aplicação
+# ✨ Exemplo de Aplicação
 
 A aplicação deverá conter os requisitos apresentados anteriormente, sendo codificada em html, css, javascript e markdown (para o readme.md). As imagens a seguir demonstram exemplos da aplicação que deverá ser desenvolvida, lembrando que, você está livre para criar um outro design caso queira.
 <br></br>
