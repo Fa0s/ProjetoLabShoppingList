@@ -10,7 +10,7 @@ let listaDeProdutos =
   JSON.parse(localStorage.getItem("ListaDeProdutosSalvos")) || [];
 
 const validaInput = () =>
-  itemInput.value.trim().length >= 8 && itemInput.value.trim().length <= 64;
+  itemInput.value.trim().length >= 2 && itemInput.value.trim().length <= 64;
 
 BotaoAdicionar.addEventListener("click", criaProduto);
 
